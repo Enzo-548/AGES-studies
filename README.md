@@ -16,10 +16,14 @@ Bem-vindo ao repositório da **Sprint 1** do nosso grupo de estudo! Nesta sprint
 ## 📚 Materiais, Tutoriais e Vídeos
 
 Aqui você encontrará links e referências para facilitar o aprendizado:
+- [Curso HTML Codecademy](https://www.w3schools.com/html/default.asp)
+- [Curso CSS Codecademy](https://www.codecademy.com/enrolled/courses/learn-css)
 - [W3 Schools (HTML & CSS)](https://www.w3schools.com/html/default.asp)
-- [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Mozilla (Documentação HTML)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Playslist site dos Vingadores](https://www.youtube.com/playlist?list=PLkJ_av-2S2p97ejPxUYHbaLfX-XMfZ1F3)
 - [Playslist sobre JavaScript](https://www.youtube.com/playlist?list=PL0vfts4VzfNixzfaQWwDUg3W5TRbE7CyI)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox))
+- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ---
 
@@ -33,8 +37,9 @@ Desenvolver uma calculadora que permita o usuário:
 - Poder apagar o que estiver no display da calculadora 🗑️
 - Seguir o design estabelecido no Figma;
 
-### Dica de ouro 🪙
+### Dicas de ouro 🪙
 - Método eval() do JavaScript
+- Utilizar Grid ou Flexbox para organizar os botões
 
 ---
 
