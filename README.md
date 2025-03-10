@@ -7,6 +7,9 @@
 =======
 # Sprint 1 - Introdução ao Frontend 🧮
 
+![Calculadora](calc.png)
+
+
 ## Visão Geral
 
 Bem-vindo ao repositório da **Sprint 1** do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de **Frontend** utilizando **HTML**, **CSS** e **JavaScript**. O objetivo dessa sprint é aprender os básicos do desenvolvimento web e introduzir os alunos a tecnologias que não serão vistas durante os cursos de graduação 💡✨
@@ -22,8 +25,8 @@ Aqui você encontrará links e referências para facilitar o aprendizado:
 - [Mozilla (Documentação HTML)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Playslist site dos Vingadores](https://www.youtube.com/playlist?list=PLkJ_av-2S2p97ejPxUYHbaLfX-XMfZ1F3)
 - [Playslist sobre JavaScript](https://www.youtube.com/playlist?list=PL0vfts4VzfNixzfaQWwDUg3W5TRbE7CyI)
-- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox))
-- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Flexbox Poster](https://css-tricks.com/snippets/css/a-guide-to-flexbox)
+- [Grid Poster](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 ---
 
