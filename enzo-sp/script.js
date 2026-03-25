@@ -1,16 +1,6 @@
-/*
-CRIAR TIPO DE DADO DE CALCULADORA
-INICIAR VALORES DE OPERAÇÃO E DE ALGARISMO
-CALCULADORA OPERA E FAZ O RESULTADO APARECER EM ALGARISMO
-
-*/
-    
-                function format_equation(a) {
+        function format_equation(a) {
         let s = a;
 
-        // =========================
-        // 0. NORMALIZAR ESPAÇOS
-        // =========================
         s = s.replace(/\s+/g, "").trim();
 
         // =========================
