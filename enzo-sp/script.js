@@ -100,7 +100,7 @@
                         iAlreadyClickedEquals = 0;
                         }
 
-                        digit.textContent = digit.textContent.concat(btnEntry.at(1).textContent);    
+                        digit.textContent = digit.textContent+btnEntry.at(1).textContent;    
                         
                         
                     })
@@ -117,7 +117,7 @@
                     if(btnId == "button-calculator-NUMBER-PERCENTAGE"){
                       let event_cdel_but = btnEntry.at(1).addEventListener('click', () => {
                         if (digit.textContent.charAt(0) != "%") {
-                            digit.textContent = digit.textContent.concat("%")
+                            digit.textContent = digit.textContent+"%"
                         }
                     })  
                     }else
@@ -126,7 +126,7 @@
                       if (digit.textContent.charAt(0) == '-') {
                         digit.textContent = digit.textContent.replace("-","")
                       }else{
-                        digit.textContent = "-".concat(digit.textContent);
+                        digit.textContent = "-"+digit.textContent;
                       }
                     })  
                     }else
@@ -140,12 +140,11 @@
                     let event_operation_but = btnEntry.at(1).addEventListener('click', () => {
                         if (iAlreadyClickedEquals == 1) {
                             operation.textContent = digit.textContent;
-                            operation.textContent = operation.textContent.concat(btnEntry.at(1).textContent);    
+                            operation.textContent = operation.textContent+btnEntry.at(1).textContent;    
                             digit.textContent = "";
                             iAlreadyClickedEquals = 0;
                         }else if(iAlreadyClickedEquals == 0){
-                            let formtContent = operation.textContent.concat(digit.textContent, btnEntry.at(1).textContent);
-                            console.log(formtContent);
+                            let formtContent = operation.textContent+digit.textContent+btnEntry.at(1).textContent;
                             let eqFormt = format_equation(formtContent); 
                             if(eqFormt != "invalid" || eqFormt != "undefined"){
                                 operation.textContent = eqFormt;
@@ -160,7 +159,7 @@
                     if(btnId == "button-calculator-OPERATIONS-EQUAL"){
                       let event_equals = btnEntry.at(1).addEventListener('click', () => {
                         
-                        operation.textContent = operation.textContent.concat(digit.textContent, btnEntry.at(1).textContent);    
+                        operation.textContent = operation.textContent+digit.textContent+btnEntry.at(1).textContent;    
                         let result = format_equation(operation.textContent);
                         operation.textContent = "";
                         iAlreadyClickedEquals = 1;
